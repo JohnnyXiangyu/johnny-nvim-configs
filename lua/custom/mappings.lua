@@ -13,11 +13,11 @@ M.dap = {
         },
         ["<leader>cg"] = {
             "<cmd> CMakeGenerate <CR>",
-            "Generate CMake build files."
+            "Generate CMake build files"
         },
         ["<leader>cb"] = {
             "<cmd> CMakeBuild <CR>",
-            "Build current CMake build target,",
+            "Build current CMake build target",
         },
         ["<leader>cr"] = {
             "<cmd> CMakeRun <CR>",
@@ -26,6 +26,14 @@ M.dap = {
         ["<leader>cd"] = {
             "<cmd> CMakeDebug <CR>",
             "Debug current CMake launch target",
+        },
+        ["<leader>csb"] = {
+            "<cmd> CMakeSelectBuildTarget <CR>",
+            "Select build target for CMake"
+        },
+        ["<leader>csl"] = {
+            "<cmd> CMakeSelectLaunchTarget <CR>",
+            "Select launch target for CMake"
         }
   }
 }
