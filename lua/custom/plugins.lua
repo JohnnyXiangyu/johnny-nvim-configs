@@ -1,5 +1,16 @@
 local plugins = {
     {
+        "folke/todo-comments.nvim",
+        event = "VeryLazy",
+        dependencies = { "nvim-lua/plenary.nvim" },
+        opts = {}
+    },
+    {
+        'numToStr/Comment.nvim',
+        event =  "VeryLazy",
+        opts = {}
+    },
+    {
         "nvim-tree/nvim-tree.lua",
         opts = function()
             local defaults = require "plugins.configs.nvimtree"
